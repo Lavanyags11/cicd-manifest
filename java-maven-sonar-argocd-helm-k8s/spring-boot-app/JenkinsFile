@@ -58,7 +58,7 @@ pipeline {
 
     stage('Update Deployment File') {
       environment {
-        GIT_REPO_NAME = "jenkins-cicd-manifest"
+        GIT_REPO_NAME = "cicd-manifest"
         GIT_USER_NAME = "Lavanyags11"
       }
       steps {
